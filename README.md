@@ -83,7 +83,7 @@ BookList app without frameworks
         <code>compile:prod:css</code>
       </td>
       <td>
-        All as in <code>compile:dev:css</code>, but minify code and add map file
+        All as in <code>compile:dev:css</code> but minify code and add map file
       </td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@ BookList app without frameworks
         <code>compile:prod:js</code>
       </td>
       <td>
-        All as in <code>compile:dev:js</code>, but minify code and add map file
+        All as in <code>compile:dev:js</code> but minify code and add map file
       </td>
     </tr>
   </tbody>
