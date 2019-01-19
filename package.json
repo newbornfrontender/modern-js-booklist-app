@@ -6,6 +6,7 @@
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf public/*.{css,js,map}",
     "pretty": "prettier --write **/*.{html,css,js,json,md}",
     "serve": "serve public",
     "postcss:dev": "postcss src/index.css -d public -w",
