@@ -24,10 +24,42 @@ BookList app without frameworks
   <tbody>
     <tr>
       <td>
+        <code>clean</code>
+      </td>
+      <td>
+        Removing selected files in public dir
+      </td>
+    </tr>
+    <tr>
+      <td>
         <code>pretty</code>
       </td>
       <td>
         Formatting code with Prettier
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>serve</code>
+      </td>
+      <td>
+        Starting development server with Serve
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>start</code>
+      </td>
+      <td>
+        Run parallel scripts: serve and compile:dev:css, compile:dev:js with -w flag
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>pretty</code>
+      </td>
+      <td>
+        Run sequentially scripts: clean, compile:prod:css and compile:prod:js
       </td>
     </tr>
   </tbody>
