@@ -9,10 +9,12 @@
     "clean": "rm -rf public/*.{css,js,map}",
     "pretty": "prettier --write **/*.{html,css,js,json,md}",
     "serve": "serve public",
-    "postcss:dev": "postcss src/index.css -d public -w",
-    "postcss:prod": "postcss src/index.css -d public -m --env production",
-    "rollup:dev": "rollup -c -w",
-    "rollup:prod": "rollup -c --environment BABEL_ENV:production"
+    "start": "run-p serve \"compile:dev:* -w\"",
+    "build": "run-s clean compile:prod:*",
+    "compile:dev:css": "postcss src/index.css -d public",
+    "compile:dev:js": "rollup -c",
+    "compile:prod:css": "yarn compile:dev:css -m --env production",
+    "compile:prod:js": "yarn compile:dev:js --environment BABEL_ENV:production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
