@@ -62,6 +62,38 @@ BookList app without frameworks
         Run sequentially scripts: clean, compile:prod:css and compile:prod:js
       </td>
     </tr>
+    <tr>
+      <td>
+        <code>compile:dev:css</code>
+      </td>
+      <td>
+        Compile all CSS code with PostCSS in dev mode
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>compile:dev:js</code>
+      </td>
+      <td>
+        Compile all JS code with Rollup and Babel in dev mode
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>compile:prod:css</code>
+      </td>
+      <td>
+        All as in <code>compile:dev:css</code>, but minify code and add map file
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>compile:prod:js</code>
+      </td>
+      <td>
+        All as in <code>compile:dev:js</code>, but minify code and add map file
+      </td>
+    </tr>
   </tbody>
 </table>
 
