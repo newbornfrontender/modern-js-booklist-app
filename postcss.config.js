@@ -1,5 +1,5 @@
 module.exports = ({ env, options: { map } }) => ({
-  map,
+  map: env === 'production' && map,
 
   plugins: {
     'postcss-preset-env': {
