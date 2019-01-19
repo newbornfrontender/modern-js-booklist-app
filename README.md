@@ -56,7 +56,7 @@ BookList app without frameworks
     </tr>
     <tr>
       <td>
-        <code>pretty</code>
+        <code>build</code>
       </td>
       <td>
         Run sequentially scripts: clean, compile:prod:css and compile:prod:js
