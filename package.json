@@ -1,0 +1,8 @@
+{
+  "name": "modern-js-booklist-app",
+  "version": "1.0.0",
+  "description": "BookList app without frameworks",
+  "repository": "https://github.com/newbornfrontender/modern-js-booklist-app.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
