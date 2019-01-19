@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "pretty": "prettier --write **/*.{html,css,js,json,md}",
+    "serve": "serve public",
     "start": "rollup -c -w",
     "build": "rollup -c"
   },
