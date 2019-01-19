@@ -51,7 +51,7 @@ BookList app without frameworks
         <code>start</code>
       </td>
       <td>
-        Run parallel scripts: serve and compile:dev:css, compile:dev:js with -w flag
+        Run parallel scripts: <code>serve</code> and <code>compile:dev:css</code>, <code>compile:dev:js</code> with -w flag
       </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@ BookList app without frameworks
         <code>build</code>
       </td>
       <td>
-        Run sequentially scripts: clean, compile:prod:css and compile:prod:js
+        Run sequentially scripts: <code>clean</code>, <code>compile:prod:css</code> and <code>compile:prod:js</code>
       </td>
     </tr>
     <tr>
