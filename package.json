@@ -9,7 +9,7 @@
     "pretty": "prettier --write **/*.{html,css,js,json,md}",
     "serve": "serve public",
     "start": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rollup -c --environment NODE_ENV:production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
