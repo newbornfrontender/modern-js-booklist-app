@@ -8,8 +8,10 @@
   "scripts": {
     "pretty": "prettier --write **/*.{html,css,js,json,md}",
     "serve": "serve public",
-    "start": "rollup -c -w",
-    "build": "rollup -c --environment NODE_ENV:production"
+    "postcss:dev": "postcss src/index.css -d public -w",
+    "postcss:prod": "postcss src/index.css -d public -m --env production",
+    "rollup:dev": "rollup -c -w",
+    "rollup:prod": "rollup -c --environment BABEL_ENV:production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
