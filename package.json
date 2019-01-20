@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf public/*.{css,js,map}",
-    "pretty": "prettier --write **/*.{html,css,js,json,md}",
+    "pretty": "prettier --write **/*.{html,css,js,json,yml,md}",
     "serve": "serve public",
     "start": "run-p serve \"compile:dev:* -w\"",
     "build": "run-s clean compile:prod:*",
