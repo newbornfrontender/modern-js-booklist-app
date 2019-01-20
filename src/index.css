@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border: 2px solid #0460a9;
+  border-radius: 15px;
+  background-color: #2196f3d9;
+  box-shadow: 2px 2px 6px #3ba2f5;
+  transition: 0.2s;
+  box-sizing: border-box;
+
+  &:hover {
+    /* background-color: #2392ead9;
+    box-shadow: 1px 1px 3px #2b93e6; */
+    background-color: #2392ead9;
+    border-color: #f7ae42eb;
+    box-shadow: 1px 1px 3px #d69b43cf;
+  }
+}
+
+.logo {
+  margin: 0 0 20px;
+  color: #464646;
+}
+
+.logo__icon,
+.logo__text {
+  color: #efefef;
+}
+
+.form {
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
+.field__label {
+  color: #efefef;
+}
+
+.field__input {
+  padding: 5px;
+  border: 2px solid #0460a9;
+  border-radius: 4px;
+  background-color: #efefef;
+
+  &:focus {
+    outline: none;
+    border-color: #f7ae42eb;
+  }
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  border: 2px solid #0460a9;
+  border-radius: 4px;
+  color: #0460a9;
+  background-color: #f7ae42eb;
+  font-weight: bold;
+
+  &:focus {
+    color: #f7ae42eb;
+    background-color: #0460a9b8;
+    border-color: #f7ae42eb;
+  }
+}
+
+.books-list {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.books-list__item {
+  border-bottom: 1px solid #232323;
+  background-color: #67676759;
+
+  &:nth-of-type(odd) {
+    background-color: #cccccc47;
+  }
+
+  &:hover {
+    background-color: #f7ae42c7;
+  }
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  color: #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+td {
+  color: #232323;
+}
+
+.delete {
+  text-decoration: none;
+  color: #efefef;
+
+  &:hover {
+    text-decoration: underline;
+    color: #0460a9;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
