@@ -2,6 +2,8 @@
 
 BookList app without frameworks
 
+Example: https://newbornfrontender.github.io/modern-js-booklist-app/
+
 <h2 align="center">Install dependencies</h2>
 
 ```
