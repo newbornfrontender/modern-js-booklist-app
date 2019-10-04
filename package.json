@@ -28,6 +28,6 @@
     "prettier": "1.17.0",
     "rollup": "1.15.2",
     "rollup-plugin-node-resolve": "4.2.4",
-    "serve": "11.0.0"
+    "serve": "11.2.0"
   }
 }
